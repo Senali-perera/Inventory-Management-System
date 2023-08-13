@@ -1,0 +1,84 @@
+.footer {
+    /*position: fixed;*/
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #ecdfec;
+    color: white;
+    text-align: center;
+    height: 15%;
+}
+
+.margin {
+    /*  margin-left: 5%;*/
+    /*  margin-right: 5%;*/
+    /*margin-top: 5%;*/
+}
+
+.nav-bar {
+    background-color: #9E5DA2;
+}
+
+.margin-top {
+    /*margin-top: 5%;*/
+}
+
+.navbar-brand {
+    color: white;
+}
+
+.btn-add-item {
+    color: white;
+    background-color: #A25D83;
+    position: fixed;
+    bottom: 5%;
+    right: 5%;
+}
+
+.btn-delete-item {
+    color: white;
+    background-color: #c43b73;
+}
+
+.btn-edit-item {
+    color: white;
+    background-color: #b494d3;
+    margin-right: 1%;
+}
+
+.btn-submit {
+    color: white;
+    background-color: #5c3582;
+    float:right;
+}
+
+.content {
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-top:5%;
+    margin-bottom: 5%;
+}
+
+.heading {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.btn-test {
+    position: fixed;
+    bottom: 5%;
+    right: 5%;
+}
+
+.btn-view-item {
+    color: white;
+    background-color: #c639a1;
+    margin-right: 1%;
+}
+
+.btn-cancel{
+    color: white;
+    background-color: #683860;
+    margin-bottom: 1%;
+}
