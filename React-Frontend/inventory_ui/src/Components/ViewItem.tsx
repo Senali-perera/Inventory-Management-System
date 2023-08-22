@@ -26,7 +26,7 @@ const ViewItem = () => {
         type="submit"
         className="btn btn-cancel"
         onClick={() => {
-          navigator("/");
+          navigator(-1);
         }}
       >
         Cancel

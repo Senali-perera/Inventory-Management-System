@@ -4,6 +4,7 @@ import com.senali.inventoryservice.model.Item;
 import com.senali.inventoryservice.service.ItemService;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.HttpStatusCode;
 import org.springframework.http.ResponseEntity;

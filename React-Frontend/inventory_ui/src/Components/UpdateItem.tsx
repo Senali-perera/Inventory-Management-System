@@ -39,7 +39,7 @@ const UpdateItem = () => {
 
         updateItem(item.id, item)
             .then((res) => {
-                res.status === 200 ? navigator("/") : navigator("updateitem");
+                res.status === 200 ? navigator("/listitems") : navigator("/updateitem");
             })
             .catch((e) => {
                 console.log(e);
@@ -49,7 +49,7 @@ const UpdateItem = () => {
 return (
     <div className="content">
         <button type="submit" className="btn btn-cancel" onClick={() => {
-            navigator("/");
+            navigator(-1);
         }}>
             Cancel
         </button>

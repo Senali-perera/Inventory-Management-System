@@ -16,11 +16,11 @@ const ListItems = () => {
   };
 
   const viewItem = (id: number) => {
-    navigator(`viewitem/${id}`);
+    navigator(`/viewitem/${id}`);
   };
 
   const updateItem = (id: number) => {
-    navigator(`updateitem/${id}`);
+    navigator(`/updateitem/${id}`);
   };
 
   const deleteItemById = (id: number) => {
@@ -39,7 +39,7 @@ const ListItems = () => {
         <table className="table table-light table-striped">
           <thead>
             <tr>
-              <th scope="col">ID</th>
+              <th scope="col">Order Number</th>
               <th scope="col">Name</th>
               <th scope="col">Quantity</th>
               <th scope="col">Action</th>
@@ -91,7 +91,7 @@ const ListItems = () => {
         <button
           type="button"
           className="btn btn-add-item"
-          onClick={() => navigator("additem")}
+          onClick={() => navigator("/additem")}
         >
           Add New Item
         </button>

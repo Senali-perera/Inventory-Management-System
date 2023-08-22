@@ -30,7 +30,8 @@ import { useNavigate } from "react-router-dom";
 
     createItem(item)
         .then((res) => {
-          res.status === 200 ? navigator("/") : navigator("additem");
+
+          res.status === 200 ? navigator(-1) : navigator("/additem");
         })
         .catch((e) => {
           console.log(e);
@@ -43,7 +44,7 @@ import { useNavigate } from "react-router-dom";
             type="submit"
             className="btn btn-cancel"
             onClick={() => {
-                navigator("/");
+                navigator(-1);
             }}
         >
             Cancel
